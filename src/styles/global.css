@@ -7,6 +7,18 @@ body {
     scroll-behavior: smooth;
 }
 
+.spacer {
+  aspect-ratio: 900/50;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('../images/layered-waves-haikei.svg')
+}
+
 .learnabout{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;

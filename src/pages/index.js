@@ -10,7 +10,12 @@ import {
         DescSecBox, 
         WhatIsAbout, 
         FooterBox, 
-        SocialIcons 
+        SocialIcons,
+        PhoneContent,
+        ThirdBlock,
+        Curve,
+        DownloadImg,
+        Logo2
 } from '../components/blocks'
 
 import '../styles/global.css'
@@ -36,6 +41,7 @@ const IndexPage = () => {
 
                 <div class='scale-in-center'>
                     <PhoneOne src="https://cdn.pixabay.com/photo/2021/01/25/08/55/apple-iphone-12-pro-max-5947688_1280.png" />
+                    <PhoneContent src="https://i.imgur.com/UoGdrIo.png" />
                 </div>
             </FirstBlock>
             <SecondBlock id="second">
@@ -55,9 +61,18 @@ const IndexPage = () => {
                     <p class="tracking-in-expand">Awnser people and make them happy with positive messages!</p>
                 </DescSecBox>
             </SecondBlock>
+
+            <div class="spacer layer1"></div>
+
+            <ThirdBlock>
+                <Logo2 src="https://i.imgur.com/U9C81LW.png" alt="HappyMe" />
+                <p class="whiteText">HappyMe is a mobile app that focus on emphaty and make people happy</p>
+                <p class="whiteText">It's a place to people send letter's and enjoy the time spend here</p>
+                
+            </ThirdBlock>
             <FooterBox>
                 <p class="whiteText">Made by: Fernando B. Barbosa</p>
-                <a href="https://github.com/ferbarbosa">
+                <a href="https://www.linkedin.com/in/fernando-banaletti-barbosa-901702173/">
                     <SocialIcons src="https://i.imgur.com/8shpEZc.png" alt="Linkedin" />
                 </a>
                 <a href="https://github.com/ferbarbosa">
