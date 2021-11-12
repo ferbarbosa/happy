@@ -54,16 +54,15 @@ export const DescSecBox = styled.div`
     flex-direction: column;
     text-align: center;
     margin: 5em;
-    color: #fff;
+    color: rgb(67,97,238);
     max-width: 350px;
     border-radius: 10px;
     @media screen and (max-width: 960px){
         margin:0;
-        color: #000;
     }
 
     &:hover{
-        background-color: black;
+        color: black;
     }
 `
 
