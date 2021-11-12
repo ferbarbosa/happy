@@ -1,10 +1,8 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
+    <img alt="HappyMe" src="https://i.imgur.com/U9C81LW.png" width="60" />
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  HappyMe! Landing page.
 </h1>
 
 ## 🚀 Quick start
